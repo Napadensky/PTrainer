@@ -1,0 +1,129 @@
+* {
+  scroll-behavior: smooth;
+}
+span.anchor {
+  margin-top: 5vh; /* height of nav, in this case 54px */
+  display: block;
+  height: 5vh; /* height of nav, in this case 54px */
+  visibility: hidden;
+  position: relative;
+}
+header{
+  background:url(port.gif);
+  margin: auto;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;  
+}
+.slider{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: black;
+  opacity: 0.87;
+}
+.p1, h1{
+  color: white;
+}
+h1{
+  font-weight: lighter;
+  
+}
+.h3soy{
+  margin-bottom: 70px;
+}
+.pesa1{
+  font-size: 150px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.pesa2, .pesa3{
+  color: black;
+  font-size: 35px;
+}
+.pesa3{
+  font-size: 85px;
+}
+.down{
+  position: absolute;
+  bottom: 130px;
+}
+.down>a{ 
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+}
+.sec1{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.imgtt{
+  height: 100%;
+
+
+}
+.imgt{
+  width: 80%;
+  height: 80%;
+  margin-top: 50px;
+  /* -webkit-box-shadow: 1px 3px 5px 2px rgba(33, 33, 33, 1);
+  -moz-box-shadow: 1px 3px 5px 2px rgba(33, 33, 33, 1);
+  box-shadow: 1px 3px 5px 2px rgba(33, 33, 33, 1); */
+}
+.p2{
+  padding-left: 30px;
+}
+.sec1 > p{
+  font-size: 22px;
+  color: red;
+}
+
+.divSoy{
+  height: auto;
+  vertical-align: super;
+  
+}
+
+.divSer, .divCon{
+  height: 30vh;
+  padding-top: 10px;
+}
+
+h3{
+  padding-top: 20px;
+  vertical-align: text-bottom;
+}
+.divFila{
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row > div{
+  margin-top: auto;
+  margin-bottom: 144px;
+}
+
+
+
+nav {
+  background: black;
+}
+.li-nav{
+  padding-left: 40px;
+}
+
+.f-ico{
+  font-size: 24px;
+}
+.f-ico :hover{
+  color: white;
+}
